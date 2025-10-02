@@ -4,9 +4,9 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "user-application",
+  "name": "smart-links-with-cloudflare",
   "main": "worker/index.ts",
-  "compatibility_date": "2025-06-17",
+  "compatibility_date": "2025-07-11",
   "assets": {
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
@@ -14,4 +14,11 @@
   "observability": {
     "enabled": true,
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "88a4e825-b3e1-4a03-909d-c4f02ea2df52",
+      "remote": true,
+    }
+  ]
 }
