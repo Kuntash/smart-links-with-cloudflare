@@ -1,5 +1,4 @@
 import { getDestinationForCountry, getRoutingDestinations } from '@/helpers/route-ops';
-import { getLink } from '@repo/data-ops/queries/links';
 import { cloudflareInfoSchema } from '@repo/data-ops/zod-schema/links';
 import { Hono } from 'hono';
 
