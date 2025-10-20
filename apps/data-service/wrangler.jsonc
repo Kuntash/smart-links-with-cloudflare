@@ -19,6 +19,12 @@
 				"queue": "smart-links-data-queue-stage"
 			}
 		],
+		"producers": [
+			{
+				"queue": "smart-links-data-queue-stage",
+				"binding": "QUEUE",
+			}
+		]
 	},
 	"d1_databases": [
 		{
