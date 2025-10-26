@@ -16,13 +16,14 @@
 	"queues": {
 		"consumers": [
 			{
-				"queue": "smart-links-data-queue-stage"
+				"queue": "smart-links-data-queue-stage",
 			}
 		],
 		"producers": [
 			{
 				"queue": "smart-links-data-queue-stage",
 				"binding": "QUEUE",
+				"remote": true
 			}
 		]
 	},
